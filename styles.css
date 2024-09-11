@@ -45,6 +45,16 @@ grid-template-columns: 1fr 1fr;
 grid-template-rows: 100vh;
 }
 
+button{
+  background-color: #633bbc;
+  color: #EAEAEa;
+
+  font-family: 'Roboto', sans-serif;
+  display: grid;
+  padding: 15px;
+  animation: alternate-reverse;
+}
+
 nav{
 padding: 64px;
 grid-area: timeline;
